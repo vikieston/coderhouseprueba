@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.titulo {
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 300%
+}
+
+.contenedor {
+    width: 80%;
+    margin: auto;
+    
+}
+
+a:hover {
+    font-size:10px;
+    color:#100;
+    }
+
+header .contenedor {
+    position: fixed;
+    background: lightpink;
+    width: 100%;
+    border-width: 0,5px;
+    border-style: solid;
+    border-color: grey
+}
+
+nav .menu {
+    text-align: center;
+    border-width: medium;
+    border-style: hidden;
+    border-color: grey; 
+    font-family: 'Archivo Black', sans-serif;
+}
+
+div nav .menu li {
+    display: inline-block;
+    position: relative;
+}
+
+div nav .menu li .submenu {
+    display: none;
+    position: absolute;
+    left: 0;
+
+}
+
+div nav .menu li:hover .submenu {
+    display: block;
+}
+
+header h1 {
+    color: #fff;
+    text-align: center;
+}
+
+header nav {
+    text-align: center;
+    margin-top: 10px;
+}
