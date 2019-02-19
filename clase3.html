@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <title> Formularios </title>
+    </head>
+        <body>
+            <main>
+                <h1>Formularios</h1>
+
+                <form action="#" method="get" enctype="multipart/form-data">
+                    
+                    <fieldset>
+                    <legend> Datos Personales </legend>
+                            <label for="ATR"> Nombre: </label>
+            
+                            <input type="text" name="nombre" placeholder="Ingrese su nombre" required autocomplete="off" id="ATR"> 
+        
+                            <input type="password" name="pass"placeholder="Ingrese su contraseña">
+                    </fieldset>
+                   
+                    
+                    <input type="number" name="edad" min="1" max="120">
+
+                    <input type="email" name="email" placeholder="Ingrese su e-mail">
+
+                    <input type="checkbox" name="Aceptar" id="tyc"> <label for="tyc"> Términos y Condiciones</label>
+
+                    <label> <input type="radio" name="sector" checked> Campo </label>
+                    
+                    <label> <input type="radio" name="sector"> Platea
+
+                    </label>
+
+                    <input type="tel" name="telefono" placeholder="Ingrese su teléfono">
+
+                    <input type="color" name="color">
+
+                    <input type="date" name="cumple">
+
+                    <input type="range" name="rango" min="0" max="50" step="10">
+
+                    <textarea name="mensaje" cols="30" rows="10" minlength="3" maxlength="10" placeholder="Máximo 10 caracteres"></textarea> 
+                    
+                    <div>
+                            <label> Seleccioná tu país </label>  
+
+                            <select name="País">
+                                    <option value="F">Brasil</option>
+                                    <option value="M">Argentina</option>
+                                    <option value="S">Uruguay</option>
+                            </select>
+
+                    </div>
+                 
+                        
+                                      
+            
+                    
+                    <input type="submit" value="Enviar Formulario">
+
+                </form>
+            </main>
+        </body>
+   
+</html>

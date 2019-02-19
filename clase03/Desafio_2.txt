@@ -1,0 +1,8 @@
+- Crear una carpeta nueva donde van a trabajar con su proyecto.
+
+- Empezar a trabajar el HTML, al menos, de la página de inicio.
+
+- Tener en cuenta tanto la estructura como el contenido.
+
+- Las imágenes tienen que estar descargadas en su computadora.
+

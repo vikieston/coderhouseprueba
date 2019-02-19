@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+section {
+    width: 33.33%;
+    height: 100vh;
+    display: inline-block;
+    vertical-align: top;
+    padding: 20px;
+}
+
+section p {
+    font-size: 30px;
+}
+
+.izq {
+    background: tomato;
+}
+
+.der {
+    background: lightblue;
+}

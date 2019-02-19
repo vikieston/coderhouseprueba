@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+iframe {
+    width: 100%;
+    height: 80vh;
+}
+
+}
+body {
+    margin: 0;
+    padding: 0;
+    background: padding-box
+}
+
+#video-background {
+    height: 100%;
+    position: fixed;
+    width: 100%;
+}
+html {
+    font-family: 'Istok Web', sans-serif;
+}
+header h1 { font-family: 'Istok Web', sans-serif;
+    font-size: 75px;
+    text-align: center;
+    }
+
+    ul {
+        style: none
+        
+        }
+
+        nav h1 {
+            display: inline-block;  
+        
+        }
+        nav  h1 a{
+            text-decoration: none;
+            color: white;
+        
+        
+        
+        }
+        
+        nav ul {
+            list-style: none; /*para sacar las viñetas o numeros a las listas*/
+            /*text-align: center;*/
+            float: right;
+            margin-top: 25px;
+        
+        }
+        
+        nav ul li{
+            display: inline-block;
+            margin: 0 10px /*separa las palabras entre los distitnos li*/
+        }
+        
+        nav ul li a{
+            text-transform: uppercase;
+            color: brown;
+            text-decoration: none; /* para sacarle el subrayado a los vinculos*/
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 15px;
+        
+        }
+        
+nav {
+    background: pink;
+    padding: 15px 0;
+    overflow: auto;
+}
+
+
+body { 
+    background: lightgrey
+  }
+
+  .secciones {
+      text-align: center;
+      padding: 5px;
+      border: 10px;
+  }
+
+  .secciones ul LI {
+      display: inline-block;
+  }
